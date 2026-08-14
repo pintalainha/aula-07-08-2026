@@ -1,0 +1,9 @@
+nota = float(input('digite a nota :'))
+
+if nota >= 5:
+
+ print ('Recuperação')
+
+if nota >= 7:
+
+ print ('Aprovado')
