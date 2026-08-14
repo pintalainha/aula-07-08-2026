@@ -1,0 +1,29 @@
+numero1 = float(input('Digite um numero'))
+if numero1 < 0:
+ print('O numero digitado é negativo')
+elif numero1 > 0:
+  print('O numero digitado é positivo')
+else:
+  print('o numero digitado e zero')
+
+if numero1 % 2 == 0:
+   print('o numero digitado é par')
+else:
+   print('o numero digitado é impar')
+   numero2 = float(input('digite outro numero'))
+   maior = numero1
+if numero2 > numero1:
+    maior = numero2
+    print('o maior numero entre os digitados é {}'.format(numero2))
+elif numero1 == numero2:
+    print ('os numeros são iguais')
+else:
+    print('o mair numero entre os digitados é {}'.format(numero1))
+
+    salario = float(input('informe seu salario'))
+if salario < 2000:
+ salario = salario + (salario * 0.10)
+ print('o seu novo salario com 10% de aumento será {}'. format(salario))
+else:
+ salario = salario +(salario *0.05)
+ print('o seu novo salario com 5% de aumento será {}'.format(salario))
