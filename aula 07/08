@@ -1,5 +1,8 @@
-salario + salario * (aumento / 100)
-print('O salário no Próximo Mês será {:2f}' .format(salario))nome = input('informe seu nome')
+salario = 0
+aumento = 0
+salario = salario + salario * (aumento / 100)
+print('O salário no Próximo Mês será {:2f}' .format(salario))
+nome = input('informe seu nome')
 print(type(nome))
 nota1 = float(input('Digite a 1 nota:'))
 nota2 = float(input('Digite a 2 nota:'))
@@ -16,7 +19,9 @@ n = int(input('Digite o valor inteiro:'))
 if n % 2 == 0:
     print('O numero digitado é par !')
 else:
-    print('O numero digitado é impar!')
-    salario = float(input('informe o seu salário : r$'))
+    print ('O numero digitado é impar!')
+
+salario = float(input('informe o seu salário : '))
 aumento = float(input('Informe o peencetual de Aumento: '))
-salario = 
+salario = salario + salario * (aumento / 100)
+print('salario no proximo mes sera {:.2f}'.format(salario))
